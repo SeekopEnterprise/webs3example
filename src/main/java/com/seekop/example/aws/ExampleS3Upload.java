@@ -60,7 +60,7 @@ public class ExampleS3Upload extends HttpServlet {
         String accessKey = "AWS_ACCESS_KEY";
         String secretKey = "AWS_SECRET_KEY";
         String bucketName = "sicop-mdm";
-        String key = "847/dummy_test_file.dump";
+        String key = "846/dummy_test_file.dump";
         
         try (PrintWriter out = response.getWriter()) {
             response.setContentType("text/html;charset=UTF-8");
