@@ -1,6 +1,11 @@
 # Ejemplo WEB para subir objeto a S3
 
-Proyecto de ejemplo para subir un objeto a S3, se esta utilizando un simple servlet directo que sube un archivo con contenido dummy al bucket de MDM de SEEKOP.
+Proyecto de ejemplo para subir un objeto a S3.
+
+Se esta utilizando un simple servlet directo que sube un archivo con contenido dummy al bucket de MDM de SEEKOP.
+
+El archivo dummy pesa 100MB
+
 Para ejecutar el ejemplo desplegar usando un servidor de aplicaciones como WildFly o Tomcat e invocar http://localhost:8080/example/upload
 
 - El proyecto usa el SDK de AWS por medio de Maven, declarando la dependencia en el pom.xml
