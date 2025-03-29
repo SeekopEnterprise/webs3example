@@ -5,7 +5,7 @@
     <artifactId>WebS3Example</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>WebS3Example-1.0-SNAPSHOT</name>
+    <name>WebS3Example</name>
     
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
